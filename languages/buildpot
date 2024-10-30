@@ -1,0 +1,19 @@
+#!/bin/bash
+xgettext \
+    --default-domain=mnw \
+    --keyword=__ --keyword=_e --keyword=_n:1,2\
+    --from-code=UTF-8 \
+    --copyright-holder='Adrian Lang' \
+    --package-name='mnw' \
+    --package-version='0.4' \
+    --msgid-bugs-address='mail@adrianlang.de' \
+    *.php admin/*.php mnw-themepage/*.php
+
+echo -n '
+# Wordpress Description field in mnw.php
+msgid "' >> mnw.po
+grep 'Description: ' mnw.php | perl -pe 's/^Description: (.+)$/$1/; chomp' >> mnw.po
+echo '"' >> mnw.po
+echo 'msgstr ""' >> mnw.po
+
+msgmerge -U --backup=off languages/mnw.pot mnw.po && rm mnw.po

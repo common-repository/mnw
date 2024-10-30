@@ -1,0 +1,695 @@
+# mnw translation 
+# Copyright (C) 2008 Adrian Lang
+# This file is distributed under the same license as the mnw package.
+# Adrian Lang (mail@adrianlang.de), 2008
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.4\n"
+"Report-Msgid-Bugs-To: mail@adrianlang.de\n"
+"POT-Creation-Date: 2009-09-10 20:04+0200\n"
+"PO-Revision-Date: 2009-04-30 14:58+0100\n"
+"Last-Translator: Adrian Lang <mail@adrianlang.de>\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: mnw-install.php:108
+msgid "Teh web"
+msgstr "Zwischennetz"
+
+#: mnw-install.php:115
+msgid "“%n” (see %u)"
+msgstr "„%n“ (siehe %u)"
+
+#: mnw-install.php:120 mnw-sidebar.php:27 mnw-sidebar.php:28
+#: admin/mnw-admin.php:34
+msgid "Microblog notices"
+msgstr "Mikroblog-Notizen"
+
+#: mnw-install.php:122
+msgid "“<a href=\\\"%u\\\">%t</a>” (<a href=\"%a\">%n</a> @ %c)"
+msgstr "„<a href=\"%u\">%t</a>“ (<a href=\"%a\">%n</a> @ %c)"
+
+#: mnw-sidebar.php:25 mnw-sidebar.php:26
+msgid "Microblog Subscribe"
+msgstr "Mikroblog abonnieren"
+
+#: mnw-sidebar.php:40
+#, php-format
+msgid "%d OMB subscriber"
+msgid_plural "%d OMB subscribers"
+msgstr[0] "%d OMB-Leser"
+msgstr[1] "%d OMB-Leser"
+
+#: mnw-sidebar.php:41
+msgid "Subscribe!"
+msgstr "Abonnieren!"
+
+#: mnw-sidebar.php:54
+msgid "Style"
+msgstr "CSS-Stil"
+
+#: mnw-sidebar.php:112
+msgid "No notices."
+msgstr "Keine Notizen."
+
+#: mnw-sidebar.php:133
+msgid "Title"
+msgstr "Titel"
+
+#: mnw-sidebar.php:137
+msgid "Entry count"
+msgstr "Anzahl an Einträgen"
+
+#: mnw-sidebar.php:141
+msgid "Show only direct messages?"
+msgstr "Nur direkte Notizen anzeigen?"
+
+#: mnw-sidebar.php:145
+msgid "Strip @ parts at the beginning of the notice?"
+msgstr "@-Abschnitte am Anfang der Notiz entfernen?"
+
+#: mnw-sidebar.php:149
+msgid "Show new notices on top?"
+msgstr "Neue Notizen oben anzeigen?"
+
+#: mnw-sidebar.php:153
+msgid "Entry template"
+msgstr "Vorlage für Notizen"
+
+#: mnw-sidebar.php:156
+msgid ""
+"You may use the following placeholders:\n"
+"    <ul><li>%t: The content of the notice</li>\n"
+"        <li>%u: The URL where the notice can be retrieved</li>\n"
+"        <li>%c: The time the notice was created</li>\n"
+"        <li>%n: The author‘s nickname</li>\n"
+"        <li>%f: The author‘s full name</li>\n"
+"        <li>%v: The URL of the author‘s avatar</li>\n"
+"        <li>%a: The URL of the author‘s profile</li></ul>"
+msgstr ""
+"Du kannst die folgenden Platzhalter verwenden:<ul><li>%t: Der Inhalt der "
+"Notiz</li><li>%u: Die URL der Notiz</li><li>%c: Der Zeitpunkt zu dem die "
+"Notiz erstellt wurde</li><li>%n: Der Nickname des Autors</li><li>%f: Der "
+"volle Name des Autors</li><li>%v: Die URL des Avatars des Autors</li><li>%a: "
+"Der URL des Profils des Autors</li></ul>"
+
+#: admin/mnw-admin-dashboard.php:30
+#, php-format
+msgid "%s has <strong>%d subscriber</strong>."
+msgid_plural "%s has <strong>%d subscribers</strong>."
+msgstr[0] "%s hat <strong>%d Abonnenten</strong>."
+msgstr[1] "%s hat <strong>%d Abonnenten</strong>."
+
+#: admin/mnw-admin-dashboard.php:35
+#, php-format
+msgid "It is <strong>subscribed to %d user</strong>."
+msgid_plural "It is <strong>subscribed to %d users</strong>."
+msgstr[0] "Es hat <strong>%d Nutzer abonniert</strong>."
+msgstr[1] "Es hat <strong>%d Nutzer abonniert</strong>."
+
+#: admin/mnw-admin-dashboard.php:39
+msgid "User overview"
+msgstr "Nutzer-Übersicht"
+
+#: admin/mnw-admin-dashboard.php:44
+#, php-format
+msgid ""
+"<strong>%d</strong> notice is listed as <strong>response</strong> to %s."
+msgid_plural ""
+"<strong>%d</strong> notices are listed as <strong>responses</strong> to %s."
+msgstr[0] ""
+"<strong>%d</strong> Notiz ist als <strong>Antwort</strong> an %s markiert."
+msgstr[1] ""
+"<strong>%d</strong> Notizen sind als <strong>Antworten</strong> an %s "
+"markiert."
+
+#: admin/mnw-admin-dashboard.php:50
+#, php-format
+msgid "It has received a total of <strong>%d message</strong>."
+msgid_plural "It has received a total of <strong>%d messages</strong>."
+msgstr[0] ""
+"Es hat eine Gesamtanzahl von <strong>%d Nachricht</strong> empfangen."
+msgstr[1] ""
+"Es hat eine Gesamtanzahl von <strong>%d Nachrichten</strong> empfangen."
+
+#: admin/mnw-admin-dashboard.php:54
+msgid "Notices overview"
+msgstr "Notiz-Übersicht"
+
+#: admin/mnw-admin-notices.php:29 admin/mnw-admin-notices.php:39
+#: admin/mnw-admin-notices.php:144
+msgid "Send notice"
+msgstr "Notiz senden"
+
+#: admin/mnw-admin-notices.php:62
+msgid "You did not specify a notice text."
+msgstr "Du hast keinen Notiz-Text angegeben."
+
+#: admin/mnw-admin-notices.php:78
+msgid "Error sending notice."
+msgstr "Fehler beim Senden der Notiz."
+
+#: admin/mnw-admin-notices.php:80
+msgid "Notice sent."
+msgstr "Notiz versendet."
+
+#: admin/mnw-admin-notices.php:103
+msgid "Could not delete notice."
+msgid_plural "Could not delete notices."
+msgstr[0] "Notiz konnte nicht gelöscht werden."
+msgstr[1] "Notizen konnten nicht gelöscht werden."
+
+#: admin/mnw-admin-notices.php:106
+msgid "Notice successfully deleted."
+msgid_plural "Notices successfully deleted."
+msgstr[0] "Notiz gelöscht."
+msgstr[1] "Notizen gelöscht."
+
+#: admin/mnw-admin-notices.php:137
+msgid "New notice"
+msgstr "Neue Notiz"
+
+#: admin/mnw-admin-notices.php:150 mnw-themepage/mnw-themepage-handler.php:50
+#: mnw-themepage/mnw-themepage-notices-html.php:43
+msgid "Sent notices"
+msgstr "Gesendete Notizen"
+
+#: admin/mnw-admin-notices.php:152 mnw-themepage/mnw-themepage-handler.php:51
+#: mnw-themepage/mnw-themepage-notices-html.php:43
+msgid "Received notices"
+msgstr "Empfangene Notizen"
+
+#: admin/mnw-admin-notices.php:154 mnw-themepage/mnw-themepage-handler.php:51
+msgid "Only replies"
+msgstr "Nur Antworten"
+
+#: admin/mnw-admin-notices.php:160 admin/mnw-admin-remote-users.php:83
+msgid "Bulk Actions"
+msgstr ""
+
+#: admin/mnw-admin-notices.php:161 admin/mnw-admin-notices.php:231
+#: admin/mnw-admin-remote-users.php:84 admin/mnw-admin-remote-users.php:152
+msgid "Delete"
+msgstr "Löschen"
+
+#: admin/mnw-admin-notices.php:163 admin/mnw-admin-remote-users.php:86
+msgid "Apply"
+msgstr ""
+
+#: admin/mnw-admin-notices.php:168 admin/mnw-admin-remote-users.php:91
+#: mnw-themepage/mnw-themepage-notices-html.php:64
+#, php-format
+msgid "Displaying %s–%s of %s"
+msgstr ""
+
+#: admin/mnw-admin-notices.php:178 admin/mnw-admin-remote-users.php:101
+#: mnw-themepage/mnw-themepage-notices-html.php:74
+msgid "&laquo;"
+msgstr ""
+
+#: admin/mnw-admin-notices.php:179 admin/mnw-admin-remote-users.php:102
+#: mnw-themepage/mnw-themepage-notices-html.php:75
+msgid "&raquo;"
+msgstr ""
+
+#: admin/mnw-admin-notices.php:192 admin/mnw-admin-notices.php:202
+msgid "Author"
+msgstr "Autor"
+
+#: admin/mnw-admin-notices.php:194 admin/mnw-admin-notices.php:204
+msgid "Content"
+msgstr "Inhalt"
+
+#: admin/mnw-admin-notices.php:195 admin/mnw-admin-notices.php:205
+#: admin/mnw-admin-remote-users.php:116 admin/mnw-admin-remote-users.php:126
+msgid "Action"
+msgstr "Aktion"
+
+#: admin/mnw-admin-notices.php:214
+msgid "No notices"
+msgstr "Keine Notizen"
+
+#: admin/mnw-admin-notices.php:230
+msgid "Delete this notice"
+msgstr "Diese Notiz löschen"
+
+#: admin/mnw-admin-profile.php:28
+msgid "OMB profile"
+msgstr "OMB-Profil"
+
+#: admin/mnw-admin-profile.php:31
+msgid "Nickname (1-64 characters, only lowercase letters and digits)"
+msgstr "Nickname (1-64 Zeichen, nur Kleinbuchstaben und Ziffern)"
+
+#: admin/mnw-admin-profile.php:34
+msgid ""
+"The nickname is the name under which remote users will know you. You should "
+"consider thoroughly if you really want to change this setting."
+msgstr ""
+"Der Nickname ist der Name unter dem Nutzer anderer Dienste dich kennen "
+"werden. Änderungen sollten gründlich überlegt werden."
+
+#: admin/mnw-admin-profile.php:38
+msgid "Full name (up to 255 characters)"
+msgstr "Kompletter Name (bis zu 255 Zeichen)"
+
+#: admin/mnw-admin-profile.php:42
+msgid "Bio (less than 140 characters)"
+msgstr "Beschreibung (weniger als 140 Zeichen)"
+
+#: admin/mnw-admin-profile.php:46
+msgid "Location (less than 255 characters)"
+msgstr "Ort (weniger als 255 Zeichen)"
+
+#: admin/mnw-admin-profile.php:50
+msgid "Avatar URL"
+msgstr "Avatar-URL"
+
+#: admin/mnw-admin-profile.php:54
+msgid "License URL"
+msgstr "Lizenz-URL"
+
+#: admin/mnw-admin-profile.php:61 admin/mnw-admin.php:144
+msgid "Save Changes"
+msgstr ""
+
+#: admin/mnw-admin-remote-users.php:52
+msgid "Could not delete remote user."
+msgid_plural "Could not delete remote users."
+msgstr[0] "OMB-Nutzer konnte nicht gelöscht werden."
+msgstr[1] "OMB-Nutzer konnten nicht gelöscht werden."
+
+#: admin/mnw-admin-remote-users.php:55
+msgid "Remote user successfully deleted."
+msgid_plural "Remote users successfully deleted."
+msgstr[0] "OMB-Nutzer gelöscht."
+msgstr[1] "OMB-Nutzer gelöscht."
+
+#: admin/mnw-admin-remote-users.php:73
+#, php-format
+msgid ""
+"<em>Subscribers</em> are users of an OMB service who listen to your notices. "
+"The messages of <em>subscribed users</em> get published to %s and may be "
+"displayed."
+msgstr ""
+"<em>Abonnenten</em> sind Nutzer eines OMB-Dienstes, die deine Notizen "
+"verfolgen. Die Notizen <em>abonnierter Nutzer</em> werden an %s gesendet und "
+"können im Blog anzeigt werden."
+
+#: admin/mnw-admin-remote-users.php:74
+msgid "If you delete a user, both subscriptions – if available – are removed."
+msgstr ""
+"Wenn du einen Benutzer löscht werden beide Abonnements – sofern vorhanden – "
+"gelöscht."
+
+#: admin/mnw-admin-remote-users.php:75
+msgid ""
+"Note that the OpenMicroBlogging standard does not yet support a block "
+"feature; Therefore the remote user is not informed about a deletion. "
+"Moreover, if another user from the same service is subscribed to you, the "
+"remote service will probably publish your messages to deleted users as well."
+msgstr ""
+"OMB bietet zur Zeit noch keine Möglichkeit zum Blockieren eines Nutzers. "
+"Daher kann der Dienst des Abonnenten nicht über die Löschung informiert "
+"werden. Wenn dich ein anderer Nutzer des selben Dienstes abonniert hat, wird "
+"der Dienst die Notiz vermutlich trotz der Löschung an den gelöschten "
+"Abonnenten senden."
+
+#: admin/mnw-admin-remote-users.php:76
+msgid ""
+"Likewise a user which is listed as subscriber may have canceled his "
+"subscription recently."
+msgstr ""
+"Entsprechend kann ein Benutzer der als Abonnent angezeigt wird sein "
+"Abonnement widerrufen haben."
+
+#: admin/mnw-admin-remote-users.php:78 admin/mnw-admin.php:32
+msgid "Remote microblog users"
+msgstr "Andere Mikroblog-Nutzer"
+
+#: admin/mnw-admin-remote-users.php:113 admin/mnw-admin-remote-users.php:123
+msgid "User"
+msgstr "Benutzer"
+
+#: admin/mnw-admin-remote-users.php:114 admin/mnw-admin-remote-users.php:124
+msgid "Direction"
+msgstr "Richtung"
+
+#: admin/mnw-admin-remote-users.php:115 admin/mnw-admin-remote-users.php:125
+msgid "License"
+msgstr "Lizenz"
+
+#: admin/mnw-admin-remote-users.php:136
+msgid "No remote users"
+msgstr "Keine anderen Benutzer"
+
+#: admin/mnw-admin-remote-users.php:145
+msgid "Both"
+msgstr "Beide Richtungen"
+
+#: admin/mnw-admin-remote-users.php:145
+msgid "Subscriber"
+msgstr "Abonnent"
+
+#: admin/mnw-admin-remote-users.php:145
+msgid "Subscribed user"
+msgstr "Abonnierter"
+
+#: admin/mnw-admin-remote-users.php:151
+msgid "Delete this user"
+msgstr "Diesen Benutzer löschen"
+
+#: admin/mnw-admin.php:25 admin/mnw-admin.php:49 admin/mnw-admin.php:68
+msgid "Microblog"
+msgstr "Mikroblog"
+
+#: admin/mnw-admin.php:28
+msgid "General microblog settings"
+msgstr "Allgemeine Mikroblog-Einstellungen"
+
+#: admin/mnw-admin.php:28
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: admin/mnw-admin.php:30
+msgid "Microblog profile settings"
+msgstr "Mikroblog-Profil"
+
+#: admin/mnw-admin.php:30
+msgid "Profile"
+msgstr "Profil"
+
+#: admin/mnw-admin.php:32
+msgid "Remote users"
+msgstr "Andere Nutzer"
+
+#: admin/mnw-admin.php:34
+msgid "Notices"
+msgstr "Notizen"
+
+#: admin/mnw-admin.php:62
+msgid ""
+"You have no theme page specified. Please follow the steps described in "
+"README to set up a theme page for mnw."
+msgstr ""
+"Du hast keine Themepage angegeben. Bitte folge den in README angegebenen Schritten um eine Themepage anzugeben."
+
+#: admin/mnw-admin.php:75
+#, php-format
+msgid "mnw version %s"
+msgstr "mnw-Version %s"
+
+#: admin/mnw-admin.php:88
+msgid "General settings"
+msgstr "Allgemeine Einstellungen"
+
+#: admin/mnw-admin.php:91
+msgid "Wordpress microblog page URL"
+msgstr "URL der Wordpress-Mikroblog-Seite"
+
+#: admin/mnw-admin.php:94
+msgid ""
+"URL of a wordpress page which uses mnw.php as template. All public URLs are "
+"based on this URL; you should never change it."
+msgstr ""
+"URL einer Wordpress-Seite, die mnw.php als Vorlage verwendet. Alle "
+"öffentlichen URLs basieren auf dieser URL; sie sollte niemals geändert "
+"werden."
+
+#: admin/mnw-admin.php:98
+msgid "Redirect target after successful subscription."
+msgstr "Weiterleitungsziel nach Abonnement."
+
+#: admin/mnw-admin.php:102
+msgid "Post template"
+msgstr "Post-Vorlage"
+
+#: admin/mnw-admin.php:104
+msgid ""
+"Template used to generate microblog posts on blog post or page publication."
+"<br />\n"
+"                    You may use the following placeholders:<br />\n"
+"                    %n: title of the post or page<br />\n"
+"                    %u: url of the post or page<br />\n"
+"                    %e: excerpt of the post or page<br />\n"
+"                    %c: content of the post or page"
+msgstr ""
+"Vorlage für Microblog-Posts nach der Veröffentlichung eines Blog-Posts oder "
+"einer -Seite.<br />\n"
+"Du kannst die folgenden Platzhalter verwenden:<br />\n"
+"%n: Post- oder Seiten-Titel<br />\n"
+"%u: Post- oder Seiten-URL<br />\n"
+"%e: Post- oder Seiten-Auszug<br />\n"
+"%c: Post- oder Seiten-Inhalt"
+
+#: admin/mnw-admin.php:112
+msgid "Send a microblog notice when a post is published"
+msgstr "Sende eine Notiz wenn ein Post veröffentlicht wird"
+
+#: admin/mnw-admin.php:116
+msgid "Send a microblog notice when a page is published"
+msgstr "Sende eine Notiz wenn eine Seite veröffentlicht wird"
+
+#: admin/mnw-admin.php:120
+msgid "Send a microblog notice when an attachment is published"
+msgstr "Sende eine Notiz wenn ein Anhang veröffentlicht wird"
+
+#: admin/mnw-admin.php:124
+msgid "Forward user to blog post/page/attachment"
+msgstr "Nutzer zum Blog-Beitrag oder -Anhang bzw. zur Blog-Seite weiterleiten"
+
+#: admin/mnw-admin.php:128
+msgid "Send post/page/attachment URL as seealso"
+msgstr "URL des Beitrags/der Seite/des Anhangs im seealso-Feld senden"
+
+#: admin/mnw-admin.php:134
+msgid "Mirror subscription"
+msgstr ""
+
+#: admin/mnw-admin.php:137
+msgid ""
+"Automatically subscribe to a subscriber, automatically unsubscribe if the "
+"other user unsubscribes."
+msgstr ""
+
+#: mnw-themepage/mnw-themepage-get_notice.php:53
+#, php-format
+msgid "Notice from %s"
+msgstr "Notiz von %s"
+
+#: mnw-themepage/mnw-themepage-get_notice.php:53
+msgid "d F Y H:i:s"
+msgstr "d. F Y H:i:s"
+
+#: mnw-themepage/mnw-themepage-get_notice.php:77
+msgid "Notice"
+msgstr "Notiz"
+
+#: mnw-themepage/mnw-themepage-get_notice.php:78
+msgid "Notice not found."
+msgstr "Notiz nicht gefunden."
+
+#: mnw-themepage/mnw-themepage-handler.php:40
+#, php-format
+msgid ""
+"%s supports the <a href=\"//openmicroblogging.org\"\n"
+"title=\"Official website of the OpenMicroBlogging standard\">\n"
+"OpenMicroBlogging</a> standard."
+msgstr ""
+"%s unterstützt den <a href=\"//openmicroblogging.org\" title=\"Offizielle "
+"Website des OpenMicroBlogging-Standards\">OpenMicroBlogging</a>-Standard."
+
+#: mnw-themepage/mnw-themepage-handler.php:44
+msgid ""
+"It uses the free plugin <a href=\"//adrianlang.de/mnw\"\n"
+"title=\"Official website of mnw\">mnw</a> for OMB functionality."
+msgstr ""
+"Es verwendet das freie Plugin <a href=\"//adrianlang.de/mnw\" title=\"mnw-"
+"Website\">mnw</a> für OMB-Unterstützung."
+
+#: mnw-themepage/mnw-themepage-handler.php:49
+msgid "Go to the subscribe form"
+msgstr "Gehe zum Abonnieren-Formular"
+
+#: mnw-themepage/mnw-themepage-handler.php:49
+#: mnw-themepage/mnw-themepage-handler.php:118
+#: mnw-themepage/mnw-themepage-handler.php:146
+msgid "Subscribe"
+msgstr "Abonnieren"
+
+#: mnw-themepage/mnw-themepage-handler.php:50
+msgid "Display sent notices"
+msgstr "Gesendete Notizen anzeigen"
+
+#: mnw-themepage/mnw-themepage-handler.php:51
+msgid "Display received notices"
+msgstr "Empfangene Notizen anzeigen"
+
+#: mnw-themepage/mnw-themepage-handler.php:51
+msgid "Display received notices replying"
+msgstr "Empfangene Antworten anzeigen"
+
+#: mnw-themepage/mnw-themepage-handler.php:120
+#, php-format
+msgid ""
+"If you have an user account at another OMB service\n"
+"like <a href=\"//identi.ca\" title=\"identi.ca, the largest\n"
+"open microblogging service\">identi.ca</a>, you can\n"
+"easily subscribe to %s."
+msgstr ""
+"Wenn du einen Account bei einem anderen OMB-Dienst wie <a href=\"//identi.ca"
+"\" title=\"identi.ca, der größte offene Mikroblogging-Dienst\">identi.ca</a> "
+"hast, kannst du %s besonders einfach abonnieren."
+
+#: mnw-themepage/mnw-themepage-handler.php:126
+msgid ""
+"To subscribe, just enter the URL of your profile at another OMB\n"
+"service."
+msgstr "Gib die URL deines Profils bei einem OMB-Dienst zum Abonnieren an."
+
+#: mnw-themepage/mnw-themepage-handler.php:129
+msgid "You will be asked to log in there if you are not yet."
+msgstr "Du wirst gebeten, dich einzuloggen, wenn du es noch nicht bist."
+
+#: mnw-themepage/mnw-themepage-handler.php:131
+#, php-format
+msgid ""
+"There will be a confirmation prompt showing details of\n"
+"%s."
+msgstr "Danach zeigt eine Bestätigungsseite Details von %s an."
+
+#: mnw-themepage/mnw-themepage-handler.php:136
+#, php-format
+msgid "Error: %s"
+msgstr "Fehler: %s"
+
+#: mnw-themepage/mnw-themepage-handler.php:141
+msgid "OMB Profile URL"
+msgstr "OMB-Profil-URL"
+
+#: mnw-themepage/mnw-themepage-notices-atom.php:24
+#, php-format
+msgid "Microblog posts by %s"
+msgstr "Mikroblog-Notizen von %s"
+
+#: mnw-themepage/mnw-themepage-notices-atom.php:26
+#, php-format
+msgid "Microblog posts to %s"
+msgstr "Mikroblog-Notizen an %s"
+
+#: mnw-themepage/mnw-themepage-notices-html.php:80
+msgid "Display Atom feed of notices"
+msgstr "Atom-Feed der Nachrichten anzeigen"
+
+#: mnw-themepage/mnw-themepage-notices-html.php:80
+msgid "Atom feed"
+msgstr "Atom-Feed"
+
+#: mnw-themepage/mnw-themepage-oauth.php:47
+msgid "Not logged in or not admin."
+msgstr "Nicht angemeldet oder kein Administrator."
+
+#: mnw-themepage/mnw-themepage-oauth.php:53
+#, php-format
+msgid "Error while verifying the authorize request. Original error: “%s”"
+msgstr ""
+"Fehler beim Verifizieren der Authorisierungsanfrage. Ursprünglicher Fehler: "
+"„%s“"
+
+#: mnw-themepage/mnw-themepage-oauth.php:63
+msgid "Error with your session."
+msgstr "Fehler mit deiner Session."
+
+#: mnw-themepage/mnw-themepage-oauth.php:66
+msgid "Error with your nonce."
+msgstr "Fehler mit deinem Nonce."
+
+#: mnw-themepage/mnw-themepage-oauth.php:72
+#, php-format
+msgid "Error while verifying the authorization. Original error: “%s”"
+msgstr ""
+"Fehler beim Verifizieren der Authorisierungsanfrage. Ursprünglicher Fehler: "
+"„%s“"
+
+#: mnw-themepage/mnw-themepage-oauth.php:105
+msgid "Authorize subscription"
+msgstr "Abonnement bestätigen"
+
+#: mnw-themepage/mnw-themepage-oauth.php:117
+#, php-format
+msgid "Do you really want to subscribe %s?"
+msgstr "Willst du wirklich %s abonnieren?"
+
+#: mnw-themepage/mnw-themepage-oauth.php:126
+msgid "Yes"
+msgstr "Ja"
+
+#: mnw-themepage/mnw-themepage-oauth.php:128
+msgid "No"
+msgstr "Nein"
+
+#: mnw-themepage/mnw-themepage-oauth.php:148
+msgid "Authorization granted"
+msgstr "Erlaubnis erteilt."
+
+#: mnw-themepage/mnw-themepage-oauth.php:152
+#, php-format
+msgid ""
+"Confirm the subscribee‘s service that token %s is\n"
+"authorized."
+msgstr "Bestätige dem Dienst des Abonnierten, dass Token %s authorisiert ist."
+
+#: mnw-themepage/mnw-themepage-oauth.php:155
+msgid "You rejected the subscription."
+msgstr "Du hast das Abonnement abgelehnt."
+
+#: mnw-themepage/mnw-themepage-subscribe.php:58
+msgid "No remote profile submitted"
+msgstr "Kein Profil angegeben"
+
+#: mnw-themepage/mnw-themepage-subscribe.php:65
+msgid "Invalid profile URL"
+msgstr "Ungültige Profil-URL"
+
+#: mnw-themepage/mnw-themepage-subscribe.php:73
+msgid "Error requesting authorization"
+msgstr "Fehler beim Anfordern der Authorisierung"
+
+#: mnw-themepage/mnw-themepage-subscribe.php:84
+msgid "No session found"
+msgstr "Keine Session gefunden"
+
+#: mnw-themepage/mnw-themepage-subscribe.php:89
+msgid "Error storing the subscription"
+msgstr "Fehler beim Speichern des Abonnements"
+
+msgid "OpenMicroBlogging compatible Microblogging for Wordpress"
+msgstr "OpenMicroBlogging-kompatibles Mikroblogging für Wordpress"
+
+#~ msgid "Error retrieving subscribers."
+#~ msgstr "Fehler beim Abrufen der Abonnenten."
+
+#~ msgid "mnw Notices"
+#~ msgstr "mnw-Notizen"
+
+#~ msgid "Error with the profile parameter."
+#~ msgstr "Fehler mit dem Profil-Parameter."
+
+#~ msgid "mnw Subscribe"
+#~ msgstr "mnw-Abonnieren"
+
+#~ msgid "Not authorized."
+#~ msgstr "Nicht authorisiert."
+
+#~ msgid "Error storing subscriber in local database."
+#~ msgstr "Fehler beim Speichern in der lokalen Datenbank."
+
+#~ msgid "No notice specified."
+#~ msgstr "Keine Notiz angegeben."
+
+#~ msgid "No notices specified."
+#~ msgstr "Keine Notizen angegeben."
